@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="WELCOME TO FRAUD DETECTOR"
+        android:textSize="30sp"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/red"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="60dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="login"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/buttonstyle"
+            android:textColor="@color/teal_200"
+            android:id="@+id/login"
+
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Signup"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/teal_200"
+            android:background="@drawable/buttonstyle"
+            android:id="@+id/signup"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
